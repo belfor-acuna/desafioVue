@@ -1,11 +1,11 @@
 <template>
     <div>
-        
+        spells
  
     </div>
 </template>
 <script>
     export default {
-        name: "Spells"
+        name: "SpellsView"
     };
 </script>
