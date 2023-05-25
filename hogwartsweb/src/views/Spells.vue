@@ -1,6 +1,6 @@
 <template>
     <div>
-        spells
+        spellsXD
  
     </div>
 </template>

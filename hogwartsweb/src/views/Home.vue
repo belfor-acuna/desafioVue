@@ -63,7 +63,9 @@ export default {
     methods:{
 
         navigateTo(route){
-            this.$router.push(route);
+            this.$router.push({
+                name:route
+            });
         }
 
     }
