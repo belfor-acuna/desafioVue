@@ -11,6 +11,7 @@
                     <img src="https://i.pinimg.com/originals/11/a8/da/11a8daffa11e6b9479751bb7453a0650.gif" alt="" class="w-50">
                 </div>
                 <p class="fs-2 mt-3"> {{student.name}}</p>
+                <p class="fs-2 mt-3"> {{student.house}}</p>
                 <p class="fs-4 mt-3">Género: {{student.gender}}</p>
                 <p class="fs-4 mt-3">Actor: {{student.actor}}</p>
                 <p class="fs-4 mt-3">Fecha de nacimiento: {{student.dateOfBirth}}</p>

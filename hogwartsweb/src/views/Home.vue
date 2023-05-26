@@ -1,7 +1,7 @@
 <template>
-    <div class="container-fluid bg-dark py-5">
+    <div class="container-fluid bg-dark py-5 bg-dark">
         
-        <div class="carousel-container justify-content-center d-flex">
+        <div class="carousel-container justify-content-center d-flex col-xl-12 col-xs-6">
                 <div id="main-carousel3" class="carousel slide w-100 text-white" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#main-carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
@@ -37,7 +37,66 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                
         </div>
+        <main>
+
+            
+            <!-- Marketing messaging and featurettes
+          ================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+        
+            <div class="container marketing">        
+              <hr class="featurette-divider">
+        
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">¿Sabias que? <span class="text-muted">It’ll blow your mind.</span>
+                  </h2>
+                  <p class="lead">Daniel Radcliffe y Rupert Grint han admitido que ambos se quedaron enamorados de Emma Watson en las primeras películas, pero la que cosa no pasó de un bonito amor platónico.</p>
+                </div>
+                <div class="col-md-5">
+                  <img src="https://hips.hearstapps.com/hmg-prod/images/harry-potter-y-la-piedra-filosofal-677923633-large-1636701473.jpg" alt="" class="w-100">
+        
+                </div>
+              </div>
+        
+              <hr class="featurette-divider">
+        
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading">Todos los hechizos están en latín. <span class="text-muted">See for yourself.</span></h2>
+                  <p class="lead">Los hechizos en Harry Potter están compuestos por palabras en latín. Por ejemplo, 'Lumos', que convierte una varita en una antorcha, proviene de la palabra latina 'lumen', que significa luz, y 'Obliviate' proviene de la palabra latina 'obliviscor', que significa 'olvido'.
+
+                    El lema de Hogwarts también está en latín y dice "Draco dormiens nunquam titillandus", que significa "Nunca hagas cosquillas a un dragón dormido". ¡No digas que no te advertimos!.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                  <img src="https://hips.hearstapps.com/hmg-prod/images/mv5bmtg4oda3mjyym15bml5banbnxkftztcwmtuxodcwngatat-v1-sx1663-cr0-0-1663-999-al-1589923290.jpg" class="w-100">
+        
+                </div>
+              </div>
+        
+              <hr class="featurette-divider">
+        
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">El mayor miedo de Voldemort <span class="text-muted">Checkmate.</span></h2>
+                  <p class="lead">Si Voldemort se topase con un boggart, el no-ser amortal encarnaría su propio cadáver, ya que la muerte siempre fue el mayor temor del mayor enemigo de Harry.</p>
+                </div>
+                <div class="col-md-5">
+                  <img src="https://cdn.superaficionados.com/imagenes/voldemort-cke.jpg" alt="" class="w-100">
+        
+                </div>
+              </div>
+        
+              <hr class="featurette-divider">
+        
+            
+        
+            </div><!-- /.container -->
+        
+          </main>
+         
     </div>
 </template>
 <style>
