@@ -2,7 +2,7 @@
     <div class="container-fluid bg-dark py-5">
         
         <div class="carousel-container justify-content-center d-flex">
-                <div id="main-carousel3" class="carousel slide w-75 text-white" data-bs-ride="carousel">
+                <div id="main-carousel3" class="carousel slide w-100 text-white" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#main-carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
                         <li data-bs-target="#main-carousel3" data-bs-slide-to="1" aria-label="Second slide"></li>

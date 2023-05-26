@@ -2,9 +2,9 @@ import axios from "axios";
 
 const BASE_URL = 'https://hp-api.onrender.com/api';
 
-function listStudents({limit, offset}){
+function listTeachers({limit, offset}){
 
-    return axios.get(`${BASE_URL}/characters/students`,{
+    return axios.get(`${BASE_URL}/characters/staff`,{
         params:{
             limit,
             offset
@@ -15,7 +15,7 @@ function listStudents({limit, offset}){
 
 }
 
-function getStudent(id){
+function getTeacher(id){
 
     return axios.get(`${BASE_URL}/character/${id}`).then((result)=> {
         return result.data[0];
@@ -23,4 +23,4 @@ function getStudent(id){
 }
 
 
-export {listStudents, getStudent};
+export {listTeachers, getTeacher};

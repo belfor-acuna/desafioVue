@@ -4,7 +4,8 @@ import Home from './views/Home';
 import Students from './views/Students';
 import Teachers from './views/Teachers';
 import Spells from './views/Spells';
-import StudentDetail from './views/StudentDetails'
+import StudentDetails from './views/StudentDetails';
+import TeacherDetails from './views/TeacherDetails'; 
 
 const routes=[
     {
@@ -30,7 +31,13 @@ const routes=[
     {
         path:"/students/:id",
         name:"student_details",
-        component:StudentDetail,
+        component:StudentDetails,
+        props:true
+    },
+    {
+        path:"/teachers/:id",
+        name:"teacher_details",
+        component:TeacherDetails,
         props:true
     }
 
