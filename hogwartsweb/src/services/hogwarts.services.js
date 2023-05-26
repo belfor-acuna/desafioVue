@@ -15,4 +15,11 @@ function listStudents({limit, offset}){
 
 }
 
-export {listStudents};
+function getStudent(id){
+
+    return axios.get(`${BASE_URL}/character/${id}`).then((result)=> {
+        return result.data[0];
+    });
+}
+
+export {listStudents, getStudent};

@@ -4,6 +4,7 @@ import Home from './views/Home';
 import Students from './views/Students';
 import Teachers from './views/Teachers';
 import Spells from './views/Spells';
+import StudentDetail from './views/StudentDetails'
 
 const routes=[
     {
@@ -25,6 +26,12 @@ const routes=[
         path:"/spells" ,
         name:"spells" ,
         component: Spells
+    },
+    {
+        path:"/students/:id",
+        name:"student_details",
+        component:StudentDetail,
+        props:true
     }
 
 ];

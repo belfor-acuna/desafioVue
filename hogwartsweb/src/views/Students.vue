@@ -1,13 +1,15 @@
 <template>
-    <div>
-        
+    <div class="container-fluid">
+        <div class="col-xl-12">
             <h1>Estudiantes</h1>
-            <student-item 
-            v-for="student in students"
-            :key="student.id"
-            :student="student"
-            />
-        
+            <div class="row">
+                 <student-item 
+                  v-for="student in students"
+                  :key="student.id"
+                  :student="student"
+                 /></div>
+        </div>
+       
     </div>
 </template>
 <script>
@@ -23,7 +25,7 @@
             };
         },
         async mounted() {
-            const result = await listStudents({limit:3,offset:0});
+            const result = await listStudents({limit:20,offset:0});
             this.students = result.data;
         },
     };
