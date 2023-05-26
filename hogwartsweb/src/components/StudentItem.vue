@@ -2,6 +2,7 @@
     <div>
             <div class="card">
                 <div class="card-header">
+                    <img src="student.image" alt="">
                     {{student.name}}
                 </div>
                 <div class="card-body">
